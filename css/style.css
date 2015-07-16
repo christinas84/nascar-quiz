@@ -1,0 +1,83 @@
+body {
+	background-image: url("http://static.nascar.com/content/dam/nascar/promospots/homepage%20backgrounds/homepage_background_2015newhampshire_1500x1100.jpg/jcr:content/renditions/original");
+	color: black; 
+	font-family: gill sans;
+	font-size: 17px;
+	background-color: #0b030a;
+	background-repeat: no-repeat;
+}
+#container {
+	width: 50%;
+	background: #fff;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+	opacity: 0.95;
+
+}
+.container-content {
+	box-shadow: 3px 4px 5px rgba(9,10,10,.75);
+	background-color: #6e787c; 
+	padding-left: 10px;
+	padding-right: 10px;
+	background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+ 	height: 100%;
+  	background-size:50px 50px;
+  	background-color: #434343;
+    
+}
+header {
+	text-align: center;
+	border-bottom: black solid 1px;
+	padding-top: 10px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+header p {
+	padding: 0; 
+	margin-top: 5px;
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+section {
+	min-height: 400px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 5px;
+}
+input [type="submit"] {
+	background: #f06226;
+	border: 0;
+	color: black;
+	padding: 10px 15px;
+	cursor: pointer; 
+}
+
+#results h3 {
+	background: #f06226;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+h3 {
+	font-weight: 400;
+	color: black; 
+}
+
+#results span {
+	color #000;
+	font-weight: lighter; 
+}
